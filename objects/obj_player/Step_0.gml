@@ -1,28 +1,31 @@
-/// @description Inserte aquí la descripción
-if (keyboard_check(ord("D")) or keyboard_check(vk_right)){
-	x = x+spd;
-	sprite_index = spr_bat_man_running;
+/// @description Frame Por Frame...
+
+// You can write your code in this editor
+if keyboard_check(ord("D")) || keyboard_check(vk_right){/// Derecha
+	x = x + spd;
+	sprite_index = spr_player_xwalk;
 	image_xscale = 1;
 }
-else if(keyboard_check(ord("A")) or keyboard_check(vk_left)){
+if keyboard_check(ord("A")) || keyboard_check(vk_left){/// Izquierda
 	x = x - spd;
-	sprite_index = spr_bat_man_running;
+	sprite_index = spr_player_xwalk;
 	image_xscale = -1;
 }
-else if(keyboard_check(ord("W")) or keyboard_check(vk_up)){
+ if keyboard_check(ord("W")) || keyboard_check(vk_up){/// Arriba
 	y = y - spd;
-	sprite_index = spr_bat_man_running;
+	sprite_index = spr_player_ywalk_Up;
 }
-else if(keyboard_check(ord("S")) or keyboard_check(vk_down)){
-	y = y +  spd;
-	sprite_index = spr_bat_man_running;
+ if keyboard_check(ord("S")) || keyboard_check(vk_down){///Abajo
+	y = y + spd;
+	sprite_index = spr_player_ywalk_Down;
 }
-else{
-	sprite_index = spr_bat_man_idle;
+if (!keyboard_check(vk_anykey)){
+	sprite_index = spr_player_idle_down;
+	image_xscale = 1;
 }
 
-
-
-        
-
-
+if (hp <= 0){
+	room_goto( RoomGAMEOVER );
+}
+show_debug_message("VIDA: ");
+show_debug_message(hp);
