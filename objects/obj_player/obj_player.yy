@@ -34,12 +34,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle_down",
-    "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name": "spr_player_idle",
+    "path": "sprites/spr_player_idle/spr_player_idle.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_charCol",
-    "path": "sprites/spr_charCol/spr_charCol.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
