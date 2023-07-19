@@ -25,7 +25,5 @@ if (!keyboard_check(vk_anykey)){
 }
 
 if (hp <= 0){
-	room_goto( RoomGAMEOVER );
+	room_goto( ROOM_GAMEOVER);
 }
-show_debug_message("VIDA: ");
-show_debug_message(hp);
