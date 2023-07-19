@@ -26,6 +26,7 @@
     {"name":"obj_Player","order":1,"path":"objects/obj_Player/obj_Player.yy",},
     {"name":"Spr_Hazard","order":4,"path":"sprites/Spr_Hazard/Spr_Hazard.yy",},
     {"name":"spr_tileSet_texures_01","order":3,"path":"sprites/spr_tileSet_texures_01/spr_tileSet_texures_01.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_charCol","order":1,"path":"sprites/spr_charCol/spr_charCol.yy",},
     {"name":"TileSet_04","order":4,"path":"tilesets/TileSet_04/TileSet_04.yy",},
     {"name":"Spr_TvEffect","order":6,"path":"sprites/Spr_TvEffect/Spr_TvEffect.yy",},
