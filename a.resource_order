@@ -10,6 +10,7 @@
     {"name":"Sprite11","order":9,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Obj_Room","order":7,"path":"objects/Obj_Room/Obj_Room.yy",},
     {"name":"Spr_Hazard","order":1,"path":"sprites/Spr_Hazard/Spr_Hazard.yy",},
+    {"name":"Lights_out","order":1,"path":"sounds/Lights_out/Lights_out.yy",},
     {"name":"spr_charCol","order":2,"path":"sprites/spr_charCol/spr_charCol.yy",},
     {"name":"Spr_Col","order":3,"path":"sprites/Spr_Col/Spr_Col.yy",},
     {"name":"Spr_TvEffect","order":4,"path":"sprites/Spr_TvEffect/Spr_TvEffect.yy",},
