@@ -49,6 +49,7 @@
     {"id":{"name":"bgm_sub_Danger","path":"sounds/bgm_sub_Danger/bgm_sub_Danger.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"spr_tileSet_floor_01","path":"sprites/spr_tileSet_floor_01/spr_tileSet_floor_01.yy",},},
+    {"id":{"name":"Script_get_Input","path":"scripts/Script_get_Input/Script_get_Input.yy",},},
     {"id":{"name":"Spr_Hazard","path":"sprites/Spr_Hazard/Spr_Hazard.yy",},},
     {"id":{"name":"spr_tileSet_texures_01","path":"sprites/spr_tileSet_texures_01/spr_tileSet_texures_01.yy",},},
     {"id":{"name":"Lights_out","path":"sounds/Lights_out/Lights_out.yy",},},
