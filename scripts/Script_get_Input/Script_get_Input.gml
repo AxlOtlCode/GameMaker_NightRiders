@@ -6,4 +6,6 @@ function Script_get_Input(){
 	UP= keyboard_check(ord("W")) || keyboard_check(vk_up);
 	DOWN= keyboard_check(ord("S")) || keyboard_check(vk_down);
 	NONEKEY= !keyboard_check(vk_anykey);
+	
+	ATTACK = keyboard_check(ord("J"));
 }

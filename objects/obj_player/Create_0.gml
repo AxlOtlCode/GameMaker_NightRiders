@@ -5,3 +5,6 @@ hp = 100;
 
 audio_stop_sound(bgm_sub_Danger);
 audio_play_sound(bgm_sub_Danger,0,true);
+
+State = SCR_state_idle;
+
