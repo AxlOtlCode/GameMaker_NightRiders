@@ -5,4 +5,5 @@ script_execute(State);
 
 if (hp <= 0){
 	room_goto(ROOM_GAMEOVER);
+	audio_stop_sound(bgm_sub_Danger);
 }

@@ -3,11 +3,12 @@
 function SCR_state_move(){
 	if (RIGHT){/// Derecha
 		x = x + spd;
-		image_xscale = 1;
+		
+		h_dir = 1;
 	}
 	if (LEFT){/// Izquierda
 		x = x - spd;
-		image_xscale = -1;
+		h_dir = -1;
 	}
 	 if (UP){/// Arriba
 		y = y - spd;
@@ -15,6 +16,7 @@ function SCR_state_move(){
 	 if (DOWN){///Abajo
 		y = y + spd;
 	}
+	image_xscale = h_dir;
 	sprite_index = spr_player_xwalk;
 	
 	if(NONEKEY){
@@ -22,6 +24,10 @@ function SCR_state_move(){
 	}
 	
 	if(ATTACK){
+		
+		if(attackSensor == noone){
+			attackSensor= instance_create_layer(x+(30*h_dir),y,"BULLETS",obj_player_attack_sensor);
+			}
 		image_index = 0;
 		State = SCR_state_Atk;
 	}
