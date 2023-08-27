@@ -10,10 +10,10 @@ function SCR_state_idle(){
 	
 	if(ATTACK){
 		
+		image_index = 0;
 		if(attackSensor == noone){
 			attackSensor= instance_create_layer(x+(30*h_dir),y,"BULLETS",obj_player_attack_sensor);
 			}
-		image_index = 0;
 		State = SCR_state_Atk;
 	}
 	
