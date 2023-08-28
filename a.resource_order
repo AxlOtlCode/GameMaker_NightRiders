@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings": [
+    {"name":"player","order":4,"path":"folders/Scripts/player.yy",},
+    {"name":"ENEMY","order":11,"path":"folders/Sprites/ENEMY.yy",},
     {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
     {"name":"Tiles","order":6,"path":"folders/Sprites/Tiles.yy",},
-    {"name":"ENEMY","order":11,"path":"folders/Sprites/ENEMY.yy",},
-    {"name":"player","order":4,"path":"folders/Scripts/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"TEXT_ENDING","order":2,"path":"objects/TEXT_ENDING/TEXT_ENDING.yy",},
