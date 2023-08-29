@@ -7,6 +7,7 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
+    {"name":"inst_DEDF8A8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_333B8E84","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_10E404F8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6B4C073C","path":"rooms/Room1/Room1.yy",},
@@ -71,6 +72,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"CHARACTER","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_333B8E84","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":609.0,"y":378.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DEDF8A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_controler","path":"objects/obj_game_controler/obj_game_controler.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"WALLS","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":65,"SerialiseWidth":65,"TileCompressedData":[
 2,-2147483648,46,-3,47,3,48,266,46,-3,47,30,48,-2147483648,34,35,36,38,39,39,37,38,37,38,40,42,43,-2147483648,-2147483648,34,35,36,37,38,39,37,38,37,38,40,42,43,-25,-2147483648,1,78,-3,79,5,80,266,78,79,79,-13,0,18,72,74,75,-2147483648,-2147483648,66,67,68,

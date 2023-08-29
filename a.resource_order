@@ -17,6 +17,7 @@
     {"name":"Sprite17","order":13,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"obj_enemy","order":4,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_neo_attack","order":2,"path":"sprites/spr_neo_attack/spr_neo_attack.yy",},
+    {"name":"obj_game_controler","order":7,"path":"objects/obj_game_controler/obj_game_controler.yy",},
     {"name":"obj_player_attack_sensor","order":6,"path":"objects/obj_player_attack_sensor/obj_player_attack_sensor.yy",},
     {"name":"spr_player_Atk","order":1,"path":"sprites/spr_player_Atk/spr_player_Atk.yy",},
     {"name":"Script_get_Input","order":3,"path":"scripts/Script_get_Input/Script_get_Input.yy",},
